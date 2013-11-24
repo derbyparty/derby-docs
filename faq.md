@@ -60,7 +60,7 @@ Derby + Everyauth have some problems with login/password authorization. So recom
 
 ### Why there are two collections in derby-auth?
 
-There is no way to restrict access in Derby for some fields of documents and allow it for another fields of same documents. So there is no way to restrict access to user`s password and allow access to user`s name using one collection. So derby-auth uses two collections: auth - for passwords, users - for everything else.
+There is no way to restrict access in Derby for some fields of documents and allow it for another fields of same documents. So there is no way to restrict access to user password and allow access to user name using one collection. So derby-auth uses two collections: auth - for passwords, users - for everything else.
 
 ### Can I use Derby in Phonegap?
 
