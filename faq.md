@@ -3,7 +3,7 @@
 ### What is Derby application?
 
 Derby app is extended Express app. You can use Connect, Express router, etc, as you do in common Express app. Some of Connect modules are parts of Derby app - this is the way Derby extends Express.  
-Also Derby app has one or more client apps. Each client app has it`s own router, templates, styles, browserify modules, Model. Client app executes on server while first request and also it`s uploads to client and executes in browser. Only one client app can be in browser at unit of time.
+Also Derby app has one or more client apps. Each client app has its own router, templates, styles, browserify modules, Model. Client app executes on server while first request and also its uploads to client and executes in browser. Only one client app can be in browser at unit of time.
 
 ### How request is processed?
 
